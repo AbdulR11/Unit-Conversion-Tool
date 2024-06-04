@@ -19,7 +19,8 @@ body {
     padding: 20px;
     background-color: #1F2937;
     align-items: center; 
-    width: 90%;        
+    width: 90%;   
+    max-width: 800px; 
    
     
 }
