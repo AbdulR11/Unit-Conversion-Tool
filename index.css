@@ -1,0 +1,97 @@
+
+
+body {
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;      
+    background-color: black; 
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+.container {
+    border: 2px solid #1F2937; 
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #1F2937;
+    align-items: center; 
+    width: 90%;        
+    max-width: 800px;   
+    
+}
+
+.upper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #6943FF;
+    color: #FFFFFF;
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%; 
+    margin-bottom: 20px; 
+}
+
+#convert-btn {
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 35px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+#input {
+    width: 80px;
+    height: 50px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    font-size: 30px;
+    color: white;
+    background-color: transparent;
+    border: 2px solid #1F2937;
+    border-radius: 5px;
+    text-align: center;
+}
+
+h1 {
+    text-shadow: 2px 2px black;
+    font-size: 34px;  
+    text-align: center;
+}
+
+.lower {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1F2937;
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%; 
+}
+
+h3 {
+    color: #CCC1FF;
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.box, .box2, .box3 {
+    margin: 10px 0;
+    width: 100%; 
+    border: 1px solid transparent;
+    background-color: #273549;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+p {
+    color: #FFFFFF;
+}
